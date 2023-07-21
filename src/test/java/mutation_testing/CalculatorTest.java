@@ -17,4 +17,9 @@ class CalculatorTest {
     public void testAdd001() {
         Assertions.assertEquals(0, calculator.add(0, 0));
     }
+
+    @Test
+    public void testAdd002() {
+        Assertions.assertEquals(3, calculator.add(3, 0));
+    }
 }
